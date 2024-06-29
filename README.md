@@ -2,8 +2,7 @@
 Code to parse requrement PDF documents and extract requirement sentences with context.
 
 ## Parse PDF documents
-Edit the java-file:
-``pdf_parser/src/main/java/req_extract/PDFParser.java``
+Edit the java-file: ``pdf_parser/src/main/java/req_extract/PDFParser.java``  
 In the main method change:
 * DocumentCode
 * pdfPath
@@ -17,6 +16,7 @@ In the parseRequirement method, change the flags depending on structure of the d
 1. Install maven
 2. Enter the pdf_parser folder ``cd pdf_parser``
 3. Compile and execute ``mvn compile exec:java``
+4. Confirm that the XML file is a valid XML. Note: You may have to manually correct some mistakes in the XML file.
 
 
 
