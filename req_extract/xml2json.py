@@ -37,11 +37,11 @@ def main():
     out_dir = Path(cfg.get("xml2json", "output_dir"))
 
     if not out_dir.exists():
-        print("dir: %s does not exists, exiting ...", out_dir)
+        print("output dir: {} does not exists, exiting ...".format(out_dir))
         exit()
 
     if not in_p.exists():
-        print("%s does not exists, exiting ...", out_dir)
+        print("{} does not exists, exiting ...".format(in_p))
         exit()
 
     # in_p is a dir

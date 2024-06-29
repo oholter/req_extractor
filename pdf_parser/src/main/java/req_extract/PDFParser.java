@@ -433,8 +433,8 @@ public class PDFParser {
 		 */
 
 		String documentCode = "dnvgl-st-f101";
-		String pdfPath = "/home/ole/Documents/dnv/ru-ship/" + documentCode + ".pdf";
-		String outPath = "/home/ole/src/req_extractor/out/" + documentCode + ".xml";
+		String pdfPath = "../pdf_documents/" + documentCode + ".pdf";
+		String outPath = "../xml/" + documentCode + ".xml";
 		int lastPage = 319;
 		String theme = "Submarine Pipeline Systems";
 		String title = documentCode;
