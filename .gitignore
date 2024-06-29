@@ -1,0 +1,15 @@
+pdf_parser/target/*
+pdf_parser/.metadata/*
+pdf_parser/.settings/*
+pdf_parser/.project/*
+pdf_parser/.project
+pdf_parser/.classpath
+req_extractor/__pycache__
+venv/
+*.swp
+json/
+out/
+samples/
+parts_of_samples/
+xml/*
+out/*
