@@ -5,6 +5,7 @@ pdf_parser/.project/*
 pdf_parser/.project
 pdf_parser/.classpath
 req_extract/__pycache__
+utils/__pycache__
 venv/
 *.swp
 json/

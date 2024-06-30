@@ -44,7 +44,7 @@ In the parseRequirement method, change the flags depending on structure of the d
 ``python -m req_extract.json2json INPUT``
 
 
-### Other utilities
+### Sample requirements
 
 * To sample 100 sentences from a document
 (samples n random unique samples from the document, order is random)  
@@ -54,8 +54,17 @@ You would then have a number of documents with n sentences in each.
 
 Manually concatenate them...
 
+### Shuffle the order of the requirements
+
 * To shuffle the order of a document with sentence:  
 ``python -m utils.shuffle_req INPUT``
 
+
+### Divide the JSON file into multiple JSON files
+
 * To divide a JSON document in 20 documents with the same number of sentences:  
 ``python -m utils.divide_json_document INPUT [-n 20]``
+
+
+### Transform the JSON file into a JSONL file
+``python -m utils.json2jsonl INPUT``
